@@ -1,3 +1,6 @@
+ /* An example query to print the company_code, founder name, total number of lead managers,total number of senior managers,
+total number of managers, and total number of employees. Ordered by ascending company_code */
+ 
 Select C.company_code,C.founder,
 Count(distinct LM.lead_manager_code),
 Count(distinct SM.senior_manager_code),  
